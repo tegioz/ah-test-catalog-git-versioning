@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: git-simple-1
   labels:
-    app.kubernetes.io/version: "0.1"
+    app.kubernetes.io/version: "0.2"
   annotations:
     tekton.dev/pipelines.minVersion: "0.29.0"
     tekton.dev/categories: Git
@@ -19,4 +19,4 @@ spec:
       image: alpine
       script: |
         #!/bin/sh
-        echo "Hello World git-simple-1 V1"   
+        echo "Hello World git-simple-1 V2"   

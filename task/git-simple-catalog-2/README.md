@@ -1,1 +1,1 @@
-git-simple-catalag-2 readme v1
+git-simple-catalag-2 readme v2
